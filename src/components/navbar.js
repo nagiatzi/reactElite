@@ -7,10 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+ } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -29,18 +26,17 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="bg-white fixed-top" expand="md">
+        <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">reactstrap</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/Hello">Components</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Github</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
               </NavItem>
-
             </Nav>
           </Collapse>
         </Navbar>
