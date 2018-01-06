@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-class Hello extends Component {
+import './hallo2.css';
+class Hello2 extends Component {
   render() {
     return (
       <div className="Heeello">
@@ -12,4 +13,4 @@ class Hello extends Component {
   }
 }
 
-export default Hello;
+export default Hello2;
