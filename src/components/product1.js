@@ -24,7 +24,7 @@ toggle() {
       <div className="content-section-a" id="first">
             <Container>
               <Row>
-                <Col lg="5" className="text-center ml-auto">
+                <Col xs={false} lg="5" className="text-center ml-auto">
                   <div>
                   <hr className="section-heading-spacer"/>
                   <h2 className="section-heading">  Biomass briquettes </h2>
@@ -41,7 +41,7 @@ toggle() {
                   </Modal>
                   </div>
                 </Col>
-                <Col lg="5" className="ml-auto">
+                <Col xs={false} lg="5" className="ml-auto">
                   <img class="img-fluid" src={ require('../img/product1.png') } alt="μπρικέτα βιομάς Κομοτηνή"/>
                 </Col>
               </Row>
