@@ -36,10 +36,10 @@ export default class EliteNav extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="#hello">Home</NavLink>
+                  <NavLink href="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Products</NavLink>
+                  <NavLink href="#first">Products</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/">Contact us</NavLink>
