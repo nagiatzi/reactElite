@@ -1,0 +1,51 @@
+.my-brand {
+  font-family: "Delius", cursive;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.7) !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+  .my-brand:hover {
+      text-decoration: none;
+  }
+   .my-brand span {
+      color: rgba(0, 0, 0, 0.7) !important;
+      font-family: "Amita", cursive;
+      font-size: 0.7em;
+  }
+
+@media (min-width: 986px) {
+  .my-brand {
+    margin-left: 3rem;
+  }
+
+  div.collapse.navbar-collapse {
+    margin-right: 3rem;
+  }
+
+}
+@media (max-width: 985px) {
+  body {
+    margin-top: 45px;
+  }
+
+  .navbar {
+    background-color: #d0cac2 !important;
+  }
+
+  a.my-brand {
+    color: white !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  a.nav-link {
+    border-bottom: 2px solid #9ca4a0;
+  }
+
+}
+
+@media (max-width: 450px) {
+  span.lead {
+    display: none;
+  }
+}

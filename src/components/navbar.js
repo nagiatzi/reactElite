@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Container,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -8,8 +9,10 @@ import {
   NavItem,
   NavLink,
  } from 'reactstrap';
+ import './navbar.css';
+ import '../App.css';
 
-export default class Example extends React.Component {
+export default class EliteNav extends React.Component {
   constructor(props) {
     super(props);
 
@@ -25,22 +28,30 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar color="faded" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/hello">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/hello2">Github</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+      <Container>
+        <div>
+          <Navbar color="faded"  className="fixed-top" light expand="lg">
+            <a className="my-brand" href="/">Elit <span className="lead">Briquettes</span></a>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink href="#hello">Home</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/">Products</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/">Contact us</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/hello2">Find us</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </div>
+    </Container>
     );
   }
 }
