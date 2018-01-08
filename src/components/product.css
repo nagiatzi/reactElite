@@ -1,0 +1,86 @@
+
+.col {
+  flex-basis: 1 !important;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+  .content-section-a img {
+    background-color: #f8f8f8;
+  }
+
+  .content-section-a p {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .content-section-a h2 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading-spacer {
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+  }
+
+  .productLink {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .productLink:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* --------Button styles and animation-----------------------------------------------------
+----------------------------------------------------------------------------- */
+#pageBtn {
+  transition: all 1s linear; }
+
+#pageBtn:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7); }
+
+  /* --------modal styles----------------------------------------------------------
+----------------------------------------------------------------------------- */
+.modal-header {
+  background: url("../img/modalImage.jpg") no-repeat;
+  background-size: cover;
+}
+  .modal-header h4 {
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+.modal-body {
+  font-weight: 200;
+}
+
+.thl {
+  color: #4286f4;
+  text-decoration: underline;
+}
+
+@media (max-width: 985px) {
+  .content-section-a {
+   padding: 20px 0;
+ }
+}
