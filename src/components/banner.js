@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import './banner.css';
 
-class Hallo extends Component {
+class Banner extends Component {
   render() {
     return (
-          <div className="zezalize">
+      <div className="moto py-5 text-white" id="moto">
+          <div className="dark-overlay">
             <Container>
               <Row>
                 <Col className="text-center">
@@ -14,9 +16,9 @@ class Hallo extends Component {
               </Row>
             </Container>
          </div>
-
+      </div>
     );
   }
 }
 
-export default Hallo;
+export default Banner;

@@ -30,7 +30,7 @@ export default class EliteNav extends React.Component {
     return (
       <Container>
         <div>
-          <Navbar color="faded"  className="fixed-top" light expand="lg">
+          <Navbar color="faded"  className="fixed-top backW" light expand="lg">
             <a className="my-brand" href="/">Elit <span className="lead">Briquettes</span></a>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

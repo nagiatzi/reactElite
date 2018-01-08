@@ -12,9 +12,12 @@
       color: rgba(0, 0, 0, 0.7) !important;
       font-family: "Amita", cursive;
       font-size: 0.7em;
-  }
+   }
 
 @media (min-width: 986px) {
+  .backW {
+    background-color: white;
+  }
   .my-brand {
     margin-left: 3rem;
   }
