@@ -11,13 +11,13 @@
     background-color: #f8f8f8;
   }
 
-  .content-section-a p {
+  .content-section-a p, .content-section-b p {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: left;
     font-weight: 400;
   }
 
-  .content-section-a h2 {
+  .content-section-a h2, .content-section-b h2  {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
   }
@@ -46,17 +46,28 @@
   border-bottom: 1px solid #e7e7e7;
 }
 
-/* --------Button styles and animation-----------------------------------------------------
+/* --------Button styles and animation------------------------------------------
 ----------------------------------------------------------------------------- */
 #pageBtn {
-  transition: all 1s linear; }
+  transition: all 1s linear;
+}
 
 #pageBtn:hover {
   transform: scale(1.1);
   background-color: white;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.7);
+}
+#pageBtn2 {
+  transition: all 1s linear;
+}
 
-  /* --------modal styles----------------------------------------------------------
+#pageBtn2:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* --------modal styles----------------------------------------------------------
 ----------------------------------------------------------------------------- */
 .modal-header {
   background: url("../img/modalImage.jpg") no-repeat;
@@ -72,6 +83,7 @@
 
 .modal-body {
   font-weight: 200;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .thl {
@@ -80,7 +92,22 @@
 }
 
 @media (max-width: 985px) {
-  .content-section-a {
+  .content-section-a, .content-section-b {
    padding: 20px 0;
- }
+  }
+
+}
+
+
+@media (max-width: 450px) {
+  .content-section-a p, .content-section-b p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .content-section-a h2, .content-section-b h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
 }
