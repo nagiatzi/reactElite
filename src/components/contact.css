@@ -1,0 +1,100 @@
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/banner.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+  .banner .dark-over2 {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+  }
+
+  .banner h2 {
+    margin-top: 150px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 3em;
+    font-family: "Lato",sans-serif;
+  }
+
+  .banner ul {
+    margin-bottom: 0;
+  }
+
+  .banner h3 {
+    font-family: "GFS Neohellenic", sans-serif;
+  }
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0; }
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 985px) {
+  .banner {
+    min-height: 370px;
+  }
+
+    .banner h2 {
+      margin-top: 20px;
+      padding-top: 20px;
+      font-size: 2em;
+    }
+
+    .banner .dark-over2 {
+      min-height: 370px;
+    }
+
+    .banner-social-buttons {
+      margin-left: 12rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 2em;
+  }
+
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+
+  .banner-social-buttons {
+    margin-left: 10rem;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .banner h2 {
+    font-size: 1.5em;
+  }
+
+  .banner-social-buttons {
+    margin-left: 2rem;
+  }
+
+}

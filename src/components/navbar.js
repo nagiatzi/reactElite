@@ -42,7 +42,7 @@ export default class EliteNav extends React.Component {
                   <NavLink href="#first">Products</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Contact us</NavLink>
+                  <NavLink href="#contact">Contact us</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/hello2">Find us</NavLink>
