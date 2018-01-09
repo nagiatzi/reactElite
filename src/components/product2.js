@@ -5,19 +5,6 @@ import './product.css'
 
 
 class Product2 extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      modal: false
-    };
-    this.toggle = this.toggle.bind(this);
-}
-
-toggle() {
- this.setState({
-   modal: !this.state.modal
- });
-}
 
   render() {
     return (

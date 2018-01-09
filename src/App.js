@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import EliteNav from './components/navbar'
-import Banner from './components/banner'
-import Product1  from './components/product1'
-import Product2  from './components/product2'
-import Product3  from './components/product3'
-import Zezalize from './components/zezalize'
+import EliteNav from './components/navbar';
+import Banner from './components/banner';
+import Product1  from './components/product1';
+import Product2  from './components/product2';
+import Product3  from './components/product3';
+import Contact from './components/contact';
+import Zezalize from './components/zezalize';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Product1 />
         <Product2 />
         <Product3 />
+        <Contact />
         <Zezalize/>
       </div>
     );
