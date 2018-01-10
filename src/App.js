@@ -6,7 +6,9 @@ import Product1  from './components/product1';
 import Product2  from './components/product2';
 import Product3  from './components/product3';
 import Contact from './components/contact';
-import Zezalize from './components/zezalize';
+import Footer from './components/footer';
+import Findus from './components/findus';
+import MyMapComponent from './components/map';
 
 class App extends Component {
   render() {
@@ -18,7 +20,9 @@ class App extends Component {
         <Product2 />
         <Product3 />
         <Contact />
-        <Zezalize/>
+        <Findus />
+        <MyMapComponent isMarkerShown={true} />
+        <Footer />
       </div>
     );
   }

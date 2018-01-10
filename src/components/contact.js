@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faPhone from '@fortawesome/fontawesome-free-solid/faPhone';
 import faHome from '@fortawesome/fontawesome-free-solid/faHome';
@@ -26,14 +25,14 @@ class Contact extends Component {
                             <ul className="list-inline banner-social-buttons">
                               <li className="list-inline-item">
                                 <a href="#" class="btn btn-secondary btn-lg">
-                                  <FontAwesomeIcon icon={faFacebook} className="fa-fw"/>
+                                  <FontAwesomeIcon icon={faFacebook} />
                                 <span className="network-name"> Facebook</span>
                                 </a>
                               </li>
                               <li className="list-inline-item">
                                 <a href="#" className="btn btn-secondary btn-lg" id="koubi2">
-                                  <FontAwesomeIcon icon={faInstagram} className="fa-fw"/>
-                                <span className="network-name">Instagram</span>
+                                  <FontAwesomeIcon icon={faInstagram} />
+                                <span className="network-name"> Instagram</span>
                               </a>
                             </li>
                           </ul>

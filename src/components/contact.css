@@ -20,7 +20,7 @@
 
   .banner h2 {
     margin-top: 150px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
     font-size: 3em;
     font-family: "Lato",sans-serif;
   }
@@ -35,7 +35,8 @@
 
 .banner-social-buttons {
   float: right;
-  margin-top: 0; }
+  margin-top: 0;
+ }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
