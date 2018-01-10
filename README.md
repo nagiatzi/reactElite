@@ -1,1 +1,1 @@
-The single web-page "Elit", that i created first was refactored using react.js and reactstrap. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+The single web-page "Elit", that i created first has been refactored using react.js and reactstrap. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
